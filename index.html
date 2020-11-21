@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<title>Hello</title>
+<style>
+
+body{
+	margin:15px auto;
+	font-family:Arial,sans-serif;
+	width:960px;
+}
+p{
+	margin:0 0 20px 0;
+}
+p,li{
+	line-height:20px;
+}
+#page_header{
+	width:100%;
+}
+#page_header > nav > ul,#page_footer > nav > ul{ 
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+#page_header > nav > ul > li,#page_footer > nav > ul >li{ 
+	margin:0 20px 0 0;
+	padding:0;
+	display:inline;
+}
+#posts{
+	float:left;
+	width:74%;
+}
+#posts aside{
+	float:right;
+	font-size:20px;
+	line-height:40px;
+	margin-left:5%;
+	width:35%;
+
+	}
+#sidebar{
+	float:left;
+	width:25%;
+}
+#page_footer{
+	clear:both;
+	display:block;
+	text-align:center;
+	width:100%;
+}
+
+
+
+</style>
+<header id="page_header">
+	<h1>APP 开发入门</h1>
+	<nav>
+		<ul>
+			<li><a href="#">最新文档</a>
+			<li><a href="#">精选文档</a>
+			<li><a href="#">技术支持</a>
+			<li><a href="#">联系我们</a>
+	</nav>
+</header>
+<section id="posts">
+
+	<article class="post">
+
+		<header>
+			<h2>移动前端开发之viewport的深入理解</h2>
+			<p>Itod
+			<time datetime="2019-04-17">2019-04-17</time>
+		</header>
+		                <aside>
+                        <p>欢迎转载
+                </aside>
+
+		<p>在移动设备进行重构或开发，首先要明白移动设备上的viewport，与有关meta标签的使用即可。才能让我们的页面适配不同分辨率的移动设备。
+		<p>...
+		<footer>
+			<p><a href="#">14 评论</a>
+	</article>
+</section>
+<section id="sidebar">
+	<nav>
+		<h3>归档</h3>
+		<ul>
+			<li><a href="#">4月2019年</a>
+			<li><a href="#">3月2019年</a>
+			<li><a href="#">2月2019年</a>
+			<li><a href="#">1月2019年</a>
+	</nav>
+</section>
+<footer id="page_footer">
+	<p>Copyright @2015 APP 开发.
+	<nav>
+		<ul>
+			<li><a href="#">主页</a>
+			<li><a href="#">关于</a>
+			<li><a href="#">团队</a>
+			<li><a href="#">隐私</a>
+	</nav>
+</footer>
