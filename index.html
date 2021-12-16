@@ -84,10 +84,15 @@
             {                
                 border: 0;                
             }
+			c{
+			display: block;
+			margin: 0 auto;
+			border:1px solid red;
+		}
         </style>      
     </head>      
 <body marginwidth="0" marginheight="0">
-    <canvas id="c" height="356" width="446">
+    <canvas id="c" height="1000px" width="1000px">
     <script>              
         var collapsed = true;            
         function toggle()            
@@ -197,7 +202,12 @@
             }    
             D+=.02
         },1)
+		
     </script>
+<audio autoplay="autoplay" loop="loop">
+    <source src="3.mp3"
+            type="audio/mpeg">
+</audio>
 </body>
-<audio src="1.mp3"  autoplay="autoplay" loop="loop"></audio>
+
 </html>
